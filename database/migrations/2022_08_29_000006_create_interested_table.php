@@ -21,7 +21,6 @@ class CreateInterestedTable extends Migration
             $table->string('city');
             $table->string('country');
             $table->bigInteger('project_id')->unsigned();
-            $table->string('date');
             $table->timestamps();
             $table->softDeletes();
 

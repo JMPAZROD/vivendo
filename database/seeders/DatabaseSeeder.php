@@ -17,7 +17,10 @@ class DatabaseSeeder extends Seeder
             DeparmentSeeder::class,
             CitySeeder::class,
             BuilderSeeder::class,
-            CategorySeeder::class
+            CategorySeeder::class,
+            ProjectSeeder::class,
+            InterestedSeeder::class,
+            ImageProjectSeeder::class
         ]);
     }
 }

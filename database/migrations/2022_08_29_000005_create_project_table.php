@@ -21,8 +21,9 @@ class CreateProjectTable extends Migration
             $table->bigInteger('builder_id')->unsigned();
             $table->bigInteger('category_id')->unsigned();
             $table->string('address');
-            $table->string('num_rooms');
-            $table->string('num_bathrooms');
+            $table->integer('num_rooms');
+            $table->integer('num_bathrooms');
+            $table->integer('price');
             $table->timestamps();
             $table->softDeletes();
 

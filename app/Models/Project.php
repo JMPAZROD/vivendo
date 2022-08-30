@@ -19,7 +19,8 @@ class Project extends Model
         'category_id',
         'address',
         'num_rooms',
-        'num_bathrooms'
+        'num_bathrooms',
+        'price'
     ];
 
     protected $casts = [
