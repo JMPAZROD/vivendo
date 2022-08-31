@@ -1,30 +1,20 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
     <head>
-        <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>@yield('title')</title>
 
         <!-- Tailwind CSS Link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css">
-
-        @yield('css')
-        <title>@yield('title')</title>
     </head>
     <body class="bg-gray-100 text-gray-800">
 
         <nav class="flex py-5 bg-blue-500 text-white">
             <div class="w-1/2 px-12 mr-auto">
-                <a href="/vivendo/public" class="text-2xl font-bold">Vivendo</a>
+                <h2 class="text-2xl font-bold">Vivendo</h2>
             </div>
-
-            @if(auth()->check())
-            <ul class="w-1/2 px-16 ml-auto flex justify-end pt-1">
-                <li class="mx-6">
-                    <a href="{{ route('interested') }}" class="font-semibold bg-blue-700 py-3 px-4 rounded-md">Interesados</a>
-                </li>
-            </ul>
-            @endif
 
             <ul class="w-1/2 px-16 ml-auto flex justify-end pt-1">
                 @if(auth()->check())
@@ -48,6 +38,5 @@
         <div class="container">
             @yield('content')
         </div>
-        @yield('js')
     </body>
 </html>
