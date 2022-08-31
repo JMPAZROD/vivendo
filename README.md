@@ -16,8 +16,11 @@ Para testeo de los Endpoint se usó Postman.
 ## Endpoint creados
 
 -http://localhost/vivendo/public/api/register
+
 -http://localhost/vivendo/public/api/login
+
 -http://localhost/vivendo/public/api/logout
+
 -http://localhost/vivendo/public/api/infoUser
 
 Listado general de proyectos
