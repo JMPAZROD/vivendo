@@ -13,8 +13,10 @@ class InterestedController extends Controller
 {
     public function index()
     {
-        $project = Interested::all();
-        return $project;
+        $projects = Interested::all();
+        return view('interested.index', [
+            'projects'  => $projects
+        ]);
     }
 
 
