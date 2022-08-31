@@ -6,10 +6,11 @@ Para este proyecto la mejor opción es utilizar xampp para correr el proyecto se
 
 ## Tecnologías usadas
 
-Para este proyeco esta desarrollado con:
--Laravel 8
--Laravel Sanctum para autenticación por medio de token
--MySQL como motor de base de datos
+Eeste proyecto esta desarrollado con:
+- Laravel 8
+- Laravel Sanctum para autenticación por medio de token
+- MySQL como motor de base de datos
+- tailwindcss
 
 Para testeo de los Endpoint se usó Postman.
 
