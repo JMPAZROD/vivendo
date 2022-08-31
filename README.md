@@ -2,7 +2,7 @@
 
 Para este proyecto la mejor opción es utilizar xampp para correr el proyecto se debe hacer una git clone del repositorio o proyecto en el directorio C:\xampp\htdocs de xampp con la rama main y posteriormente prender desde XAMPP Control Panel el Apache y MySQL.  
 
-Se debe crear una base de datos en MYSQL llamada **vivendo** y cambiar el nombre del archivo **.env.example** por **.env**  
+Se debe crear una base de datos en MYSQL llamada **vivendo** y cambiar el nombre del archivo **.env.example** por **.env** adicionalmente se debe instalar los paquetes con **npm install**  
 
 Con estos pasos realizados, se puede desde una terminal o git bash ejecutar las migraciones y seeders con el siguiente comando:
 - php artisan migrate:refresh --seed
