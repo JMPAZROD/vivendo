@@ -17,8 +17,7 @@ class Interested extends Model
         'phone',
         'city',
         'country',
-        'project_id',
-        'date'
+        'project_id'
     ];
 
     protected $casts = [
