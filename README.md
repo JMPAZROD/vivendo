@@ -37,7 +37,7 @@ Para testeo de los Endpoint se usó Postman.
   Method:GET  
   Bearer Token: se debe enviar el token que se genera en el register  
 
-Listado general de proyectos:
+#### Listado general de proyectos:
 - http://localhost/vivendo/public/api/project  
   Method:GET  
   Bearer Token: se debe enviar el token que se genera en el register  
@@ -46,7 +46,7 @@ Listado general de proyectos:
   Method:GET  
   Bearer Token: se debe enviar el token que se genera en el register  
 
-Proyecto por ciudad:
+#### Proyecto por ciudad:
 - http://localhost/vivendo/public/api/projectCity  
   Method:GET  
   Body:  
@@ -55,7 +55,7 @@ Proyecto por ciudad:
   }  
   Bearer Token: se debe enviar el token que se genera en el register
   
-Proyecto por categoría:
+#### Proyecto por categoría:
 - http://localhost/vivendo/public/api/projectCategory  
   Method:GET  
   Body:  
@@ -64,12 +64,12 @@ Proyecto por categoría:
   }  
   Bearer Token: se debe enviar el token que se genera en el register  
 
-Listado de interesados:
+#### Listado de interesados:
 - http://localhost/vivendo/public/api/interestedList  
   Method:GET   
   Bearer Token: se debe enviar el token que se genera en el register
 
-Registrar un interesado a proyecto:
+#### Registrar un interesado a proyecto:
 - http://localhost/vivendo/public/api/interestedStore  
   Method:POST  
   Body:  
