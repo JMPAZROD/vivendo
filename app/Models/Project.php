@@ -28,4 +28,14 @@ class Project extends Model
         'updated_at' => 'date:d-m-Y h:i A',
         'deleted_at' => 'date:d-m-Y h:i A',
     ];
+
+    public function category()
+    {
+        return $this->hasOne(Category::class, 'id');
+    }
+
+    public function city()
+    {
+        return $this->hasOne(City::class, 'id');
+    }
 }
